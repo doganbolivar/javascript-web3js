@@ -1,0 +1,26 @@
+var blockchain = {
+    "0": {
+        "index": 0,
+        "timestamp": "2018-01-01",
+        "data": "27 May",
+        "previousHash": "0",
+        "hash": "1960"
+    },
+    "1": {
+        "index": 1,
+        "timestamp": "2018-01-02",
+        "data": "9 Mart",
+        "previousHash": "1960",
+        "hash": "1971"
+    },
+
+    "2": {
+        "index": 2,
+        "timestamp": "2018-01-03",
+        "data": "this is the third block",
+        "previousHash": "1971",
+        "hash": "2022"
+    }
+};
+
+//this is a sample of 3 block-parted blockchain
